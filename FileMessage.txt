@@ -1,13 +1,13 @@
 Здравствуйте, дорогая и.о. секретаря
 За последние сутки во вверенных Вам сайтах произошли следующие изменения:
-Исчезли следующие страницы:
-file:/D:/TestSobes/directorywithpage/todayAdding2.html
-file:/D:/TestSobes/directorywithpage/todayAdding3.html
-file:/D:/TestSobes/directorywithpage/todayAdding1.html
-Появились следующие новые страницы:
+"Исчезли следующие страницы:
 file:/D:/TestSobes/directorywithpage/yesterdayDelete2.html
 file:/D:/TestSobes/directorywithpage/yesterdayDelete1.html
 file:/D:/TestSobes/directorywithpage/yesterdayDelete3.html
+Появились следующие новые страницы:
+file:/D:/TestSobes/directorywithpage/todayAdding2.html
+file:/D:/TestSobes/directorywithpage/todayAdding3.html
+file:/D:/TestSobes/directorywithpage/todayAdding1.html
 Изменились следующие страницы:
 https://time.is/
 С уважением, автоматизированная система мониторинга.
