@@ -14,17 +14,17 @@ public class CreatorHashMap {
     public CreatorHashMap(HashMap<URL, StringBuilder> yesterday, HashMap<URL, StringBuilder> today) throws IOException {
         this.yesterday = yesterday;
         this.today = today;
-        createTables(this.yesterday, this.today);
+        createTables();
     }
 
 //    Создание табличек
-    private static void createTables(HashMap<URL, StringBuilder> yesterday, HashMap<URL, StringBuilder> today) throws IOException {
-        createYesterday(yesterday);
-        createToday(today);
+    private void createTables() throws IOException {
+        createYesterday();
+        createToday();
     }
 
 //     Создание таблички вчерашних состояний страничек
-    private static void createYesterday(HashMap<URL, StringBuilder> yesterday) throws IOException {
+    private void createYesterday() throws IOException {
         addInHashMapByPath(yesterday, "directorywithpage/yesterdayDelete1.html");
         addInHashMapByPath(yesterday, "directorywithpage/yesterdayDelete2.html");
         addInHashMapByPath(yesterday, "directorywithpage/yesterdayDelete3.html");
@@ -33,7 +33,7 @@ public class CreatorHashMap {
     }
 
 //    создание таблички сегодняшних состояний страничек
-    private static void createToday(HashMap<URL, StringBuilder> today) throws IOException {
+    private void createToday() throws IOException {
         addInHashMapByPath(today, "directorywithpage/todayAdding1.html");
         addInHashMapByPath(today, "directorywithpage/todayAdding2.html");
         addInHashMapByPath(today, "directorywithpage/todayAdding3.html");
